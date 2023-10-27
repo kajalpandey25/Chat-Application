@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Head And Tail Recursion</title>
+    <script>
+      function colors() {
+        let data = 20;
+        console.warn(data);
+        if(true){
+            console.warn(data*20);
+        }else{
+            console.warn(data/20);
+        }
+      }
+      function days() {
+        colors();
+      }
+      function fruits() {
+        days();
+      }
+      function topFunction() {
+        fruits();
+      }
+      topFunction();
+    </script>
+  </head>
+  <body>
+    <h1>Head And Tail Recursion</h1>
+  </body>
+</html>
